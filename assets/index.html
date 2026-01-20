@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 </head>
@@ -19,26 +20,29 @@
             <h1 class="nav-title">
                     <span class="color-white">Tach</span><span class="color-diff">Wabe</span>
                 </h1>
+                <span class="nav-icone color-white"><i class="fa-solid fa-bars"></i></span>
                 <ul class="nav-links">
                     <li><a href="">About</a></li>
                     <li><a href="">Episodes</a></li>
                     <li><a href="">Host</a></li>
                 </ul>
-                <button class="paimary-btn">Subscribe <span><i class="fa-solid fa-arrow-right"></i></span></button>
+                <button class="paimary-btn"> Subscribe <span></span></button>
         </div>
 
        <div class="bannar">
         <div class="bannar-container color-white">
             <div class="image">
-        <img src="/assets/hero-circle.png"  class="bg-img">
-        <img src="/assets/microphone.png" class="top-img">
+        <img src="/assets/hero-circle.png"  class="bg-img  bannar-img">
+        <img src="/assets/microphone.png" class="top-img balance-img">
        </div>
-       <h1 class="">TechWave</h1>
+       <div class="bannar-content">
+        <h1 class="">TechWave</h1>
        <p>Your daily dose of tech insights, productivity hacks,and personal growth</p>
+       </div>
 
        <div class="bannar-button ">
-        <button class="second-btn color-white">Listen on Spotify</button>
-        <button class="third-btn color-white">Subscribe</button>
+        <button class="second-btn color-white"><img src="/assets/apple-podcast.png" alt="">Listen on Spotify</button>
+        <button class="third-btn color-white"><img src="/assets/message.png" alt="">Subscribe</button>
        </div>
     
         </div>
@@ -124,19 +128,19 @@
 
         <section>
                 <div class="media-content">
-                    <h1 class="color-white">Featured Episodes</h1>
+                    <h1 class="color-white media-title">Featured Episodes</h1>
                 <div class="media-links color-white">
                     <div class="media-link">
                     <a href=""><iframe width="560" height="315" src="https://www.youtube.com/embed/Vv9wu1KJ4TU?si=CvZsP7dR29_l3E6L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
-                    <h2>The Future of AI in Everyday Life</h2>
-                    <p>Exploring how artificial intelligence is transforming >our daily routines and what to <br>expect in the next decade.</p>
+                    <h2>The Future of AI in Everyday <br> Life</h2>
+                    <p>Exploring how artificial intelligence is transforming >our daily<br> routines and what to expect in the next decade.</p>
                     <p class="color-green">42 min</p>
                 </div>
 
                 <div class="media-link">
                     <a href=""><iframe width="560" height="315" src="https://www.youtube.com/embed/AbmPqdq8LqY?si=JlrNUnVt8_d6eR6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
                     <h2>Building Better Habits for<br> Remote Work</h2>
-                    <p>Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+                    <p>Practical strategies for staying productive<br> and maintaining work-life balance in a remote environment.</p>
                     <p class="color-green">35 min</p>
                 </div>
 
@@ -151,25 +155,41 @@
         </section>
 
         <section>
-            <div class="host-conte">
-                <h1>Meet the Host</h1>
+            <div>
+                <h1 class="color-white host-title">Meet the Host</h1>
                 <div class="host-container">
                     <div class="host-image">
                     <img src="/assets/host.png" alt="">
                 </div>
-                <div class="host-content">
+                <div class="host-content color-white">
                 <h1>Alex Kumar</h1>
                 <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
                 <div class="host-icone">
-                    <img src="/assets/linkedin.png" alt="">
-                    <img src="/assets/instagram.png" alt="">
-                    <img src="/assets/x.png" alt="">
-                    <img src="/assets/youtube.png" alt="">
-                </div>
+                    <div class="icone"><img src="/assets/linkedin.png" class=""></div>
+                    <div class="icone"><img src="/assets/instagram.png" class=""></div>
+                    <div class="icone"><img src="/assets/x.png" class=""></div>
+                    <div class="icone"><img src="/assets/youtube.png" claas=""></div>
                 </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <footer>
+        <div class="footer-container color-white">
+        <div class="footer-content">
+            <h1 class="color-white">Tect<span class="color-diff">wave</span></h1>
+
+            <ul>
+                <li><img src="/assets/spotify.png" alt="">Spotify</li>
+                <li><img src="/assets/apple-podcast.png" alt="">Apple Podcasts</li>
+                <li><img src="/assets/youtube.png" alt="">YouTube</li>
+                <li><img src="/assets/twitter.png" alt="">Twitter</li>
+            </ul>
+
+            <P><small>&copy;2026 TechWave Podcast. All rights reserved.</small></P>
+        </div> 
+        </div>
+    </footer>
 </body>
 </html>
