@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    border: 1px solid red;
+    
    
 }
 
@@ -31,10 +31,6 @@ body{
   
 }
 
-.center{
-    
-    
-}
 
 /* Header navbar style */
 .navbar{
@@ -77,7 +73,7 @@ body{
     width: 100%;
     height: 760px;
     border-top: 1px solid  rgba(145, 0, 248, 1);
-    background-image: url('/assets/hero-bg.png');
+    background-image: url('assets/hero-bg.png');
 }
 
 .bannar-container{
@@ -381,7 +377,7 @@ aside p{
 .footer-container{
     width: 100%;
     height: 250px;
-    background-image: url('/assets/footer-bg.png');
+    background-image: url('assets/footer-bg.png');
    padding: 120px;
    
 }
@@ -642,7 +638,7 @@ aside p{
 .footer-container {
     width: 750px;
     height: 200px;
-    background-image: url('/assets/footer-bg.png');
+    background-image: url('assets/footer-bg.png');
     padding: 0px;
 
 }
