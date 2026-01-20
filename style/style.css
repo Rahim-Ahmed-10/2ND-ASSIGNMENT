@@ -30,6 +30,11 @@ body{
   
 }
 
+.center{
+    
+    
+}
+
 /* Header navbar style */
 .navbar{
     display: flex;
@@ -100,8 +105,8 @@ body{
     line-height: 73px;
     margin-top: 40px;
     margin-bottom: 8px;
+    text-align: center;
 }
-
 .bannar-container p{
     display: inline;
     line-height: 19px;
@@ -569,7 +574,7 @@ aside p{
 /* hrader bannar */
 
 .bannar {
-    width: 1120px;
+    width: 750px;
     height: 650px;
     text-align: center;
     border-top: 1px solid rgba(145, 0, 248, 1);
@@ -582,11 +587,12 @@ aside p{
     height: 558px;
     margin-left: 120px;
     margin-bottom: 20px;
-    border: 1px solid red;
+
+
 }
 
 .bannar-content{
-    border: 1px solid red;
+    
     margin-right: 250px;
 }
 
@@ -616,6 +622,9 @@ aside p{
     flex-direction: column;
     
 }
+.media-links{
+     
+}
 .host-container{
     border-radius: 25px;
 }
@@ -627,7 +636,7 @@ aside p{
 /* footer */
 
 .footer-container {
-    width: 1120px;
+    width: 750px;
     height: 200px;
     background-image: url(/assets/footer-bg.png);
     padding: 0px;
